@@ -38,6 +38,14 @@ public class Rey {
     public int getPosicionColumna(){
     return posicion_rey.columna;
     }
+    
+    public String toString (){
+        
+        String mensaje="El rey color "+color_rey+" esta en la fila "+posicion_rey.fila+" y columna "+posicion_rey.columna+".";
+        
+        return mensaje;
+        
+    }
 
 }
     
