@@ -66,6 +66,14 @@ public class Posicion {
         
     }
     
+    public String toString (){
+        
+        String mensaje="La posicion de es fila "+fila+" y columna "+columna+".";
+        
+        return mensaje;
+        
+    }
+    
     
     
     
