@@ -46,6 +46,26 @@ public class Rey {
         return mensaje;
         
     }
+    
+    public void mueve(int fila,char columna){
+        
+    if(posicion_rey.fila>0&&posicion_rey.fila<9){
+    this.posicion_rey.fila=fila;
+    }
+    else{
+    System.out.println("Fila erronea. Cogeremos por defecto la fila 1.");
+    this.posicion_rey.fila=1;
+    }
+    
+    if(posicion_rey.columna>0&&posicion_rey.columna<9){
+    this.posicion_rey.columna=columna;
+    }
+    else{
+    System.out.println("Fila erronea. Cogeremos por defecto la fila a.");
+    this.posicion_rey.columna='a';
+    }
+    
+    }
 
 }
     

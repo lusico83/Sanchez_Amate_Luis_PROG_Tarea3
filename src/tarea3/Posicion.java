@@ -35,7 +35,7 @@ public class Posicion {
         this.columna=columna;
     }
     else{
-        System.out.println("Fila erronea. Cogeremos por defecto la fila 1.");
+        System.out.println("Fila erronea. Cogeremos por defecto la fila a.");
         this.columna='a';
     } 
     
