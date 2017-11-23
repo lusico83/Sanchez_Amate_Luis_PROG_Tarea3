@@ -28,8 +28,8 @@ public class Posicion {
     
     }
     
-    //Metodos Get y Set
     
+    //Metodo Set para definir la fila, controlando que este en una fila valida
     public void setFila(int fila){
         
         if(fila>0&&fila<9){
@@ -41,7 +41,7 @@ public class Posicion {
     }
     
     }
-    
+    //Metodo Set para definir la columna, controlando que este en una columna valida
     public void setColumna(char columna){
         
         if(columna>='a'&&columna<='h'){
@@ -53,19 +53,19 @@ public class Posicion {
     } 
     
     }
-    
+    //Metodo Get que nos decuelve la fila
     public int getFila(){
         
         return fila;
         
     }
-    
+    //Metodo Get que nos decuelve la columna
     public char getColumna(){
         
         return columna;
         
     }
-    
+    //Metodo toString que nos devuelve un mensaje con la posicion de la ficha
     public String toString (){
         
         String mensaje="La posicion de es fila "+fila+" y columna "+columna+".";
