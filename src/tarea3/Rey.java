@@ -3,7 +3,7 @@ package tarea3;
 
 public class Rey {
     
-    private final Color color_rey;
+    private Color color_rey;
     private Posicion posicion_rey;
     
 
@@ -14,6 +14,30 @@ public class Rey {
     posicion_rey.columna='e';
         
         }
+    
+    public void setColor(Color color_rey){
+        this.color_rey=color_rey;
+    }
+    
+    public void setPosicionFila(int fila){
+        this.posicion_rey.fila=fila;
+    }
+    
+    public void setPosicionColumna(char columna){
+        this.posicion_rey.columna=columna;
+    }
+    
+    public Color getColor(){
+    return color_rey;
+    }
+    
+    public int getPosicionFila(){
+    return posicion_rey.fila;
+    }
+    
+    public int getPosicionColumna(){
+    return posicion_rey.columna;
+    }
 
 }
     
@@ -27,5 +51,4 @@ public class Rey {
     
     
     
-    
-}
+   
